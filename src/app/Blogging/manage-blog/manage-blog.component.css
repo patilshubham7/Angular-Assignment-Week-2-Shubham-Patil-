@@ -1,0 +1,14 @@
+.title{
+    font-weight: 500;
+    font-size: 150%;
+}
+.description{
+    font-weight: 500;
+}
+.date{
+    margin-top: 12px;
+    font-weight: 500;
+}
+.blog{
+    color: red;
+}
