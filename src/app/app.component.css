@@ -4,7 +4,11 @@
  li:visited{
   background-color: yellow;
  }
-
+ li:hover{
+  text-decoration: underline solid white;
+  /* text-shadow: 80px green; */
+  background-color:rgb(238, 51, 51)
+ }
 .navbar {
     /* list-style-type: none;
     margin: 0;

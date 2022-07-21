@@ -22,6 +22,7 @@ export class BlogCreateComponent implements OnInit {
   onBlogAdded(Form :NgForm){
     
     if(Form.invalid){
+      alert('Please Enter valid details \n Minimum length for Title = 5  and for Description = 150');
       return
     }
     this.blogService.addBlog(Form.value.title,Form.value.description,Form.value.dateTime,++this.id);
